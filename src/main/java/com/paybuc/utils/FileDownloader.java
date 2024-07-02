@@ -4,6 +4,8 @@
  */
 package com.paybuc.utils;
 
+import com.paybuc.enums.FileLinks;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -16,18 +18,16 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import com.paybuc.core.AdvancedPowerballGenerator;
-import com.paybuc.enums.FileLinks;
 
 /**
  * @author Brandon
  */
 public class FileDownloader {
     
-    private File file;
-    private String FILE_NAME;
+    private static File file;
+    private static String FILE_NAME;
 
-    public FileDownloader(String FILE_NAME, String FILE_URL) {
+    private FileDownloader(String FILE_NAME, String FILE_URL) {
         while(!Download(FILE_NAME, FILE_URL)){
             try {
                 System.out.println("Failed to Download, process restarting...");
@@ -37,17 +37,37 @@ public class FileDownloader {
             }
         }
     }
+
+    public static void directory(){
+        File binDir = new File("bin");
+        File backupDir = new File("bin\\backup");
+
+        if(!binDir.exists()){
+            backupDir.mkdirs();
+        }
+
+    }
+
+    public static void getDefaultFiles(){
+        directory();
+        Download("sa_daily_lotto.csv", FileLinks.DailyLotto.toString());
+        Download("lotto.csv", FileLinks.Lottory.toString());
+        Download("lotto_plus_one.csv", FileLinks.LottoryPlusOne.toString());
+        Download("lotto_plus_two.csv", FileLinks.LottoryPlusTwo.toString());
+        Download("powerball.csv", FileLinks.Powerball.toString());
+        Download("powerball_plus.csv", FileLinks.PowerballPlus.toString());
+    }
     
-    public boolean Download(String FILE_NAME, String FILE_URL){
+    public static boolean Download(String FILE_NAME, String FILE_URL){
         try {
-            this.FILE_NAME = FILE_NAME;
-            
             URL fetchWebsite = new URL(FILE_URL);
             System.setProperty("http.agent", "Chrome");
             ReadableByteChannel readableByteChannel = Channels.newChannel(fetchWebsite.openStream());
             
             file = new File(new File("").getAbsolutePath() + "\\bin\\"+FILE_NAME);
-            
+
+            System.out.println(file.getAbsolutePath());
+
             if(file.exists()){
                 MoveFile(file.getAbsolutePath(), System.getProperty("user.dir")+"\\bin\\backup\\"+file.getName());
                 System.out.println("Backup successfully moved.");
@@ -67,7 +87,7 @@ public class FileDownloader {
         }
     }
     
-    public boolean MoveFile(String From, String To) {
+    public static boolean MoveFile(String From, String To) {
         try {
             // ======= CHECK IF toFILE EXISTS =======
             File toFile = new File(To);
@@ -89,7 +109,7 @@ public class FileDownloader {
         }
     }
     
-    public FileDownloader(String FILE_NAME, String FILE_URL, boolean k) {
+    private FileDownloader(String FILE_NAME, String FILE_URL, boolean k) {
         try {
             URL fetchWebsite = new URL(FILE_URL);
             System.setProperty("http.agent", "Chrome");
@@ -97,7 +117,7 @@ public class FileDownloader {
             try (FileOutputStream fos = new FileOutputStream(new File("").getAbsolutePath() + "\\"+FILE_NAME)) {
                 fos.getChannel().transferFrom(readableByteChannel, 0, Long.MAX_VALUE);
             } catch (IOException ex) {
-                Logger.getLogger(AdvancedPowerballGenerator.class.getName()).log(Level.SEVERE, null, ex);
+                ex.printStackTrace();
             }
         } catch (MalformedURLException ex) {
             Logger.getLogger(FileDownloader.class.getName()).log(Level.SEVERE, null, ex);
@@ -106,7 +126,7 @@ public class FileDownloader {
         }
     }
     
-    public File getFile(){
+    public static File getFile(){
         return file;
     } 
 }

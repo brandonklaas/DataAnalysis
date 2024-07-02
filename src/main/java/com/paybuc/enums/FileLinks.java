@@ -14,7 +14,8 @@ public enum FileLinks {
     LottoryPlusOne(2,"https://www.africanlottery.net/download/sa_lotto_plus_1.csv"),
     LottoryPlusTwo(3,"https://www.africanlottery.net/download/sa_lotto_plus_2.csv"),
     Powerball(4,"https://www.africanlottery.net/download/sa_powerball.csv"),
-    PowerballPlus(5,"https://www.africanlottery.net/download/sa_powerball_plus.csv")
+    PowerballPlus(5,"https://www.africanlottery.net/download/sa_powerball_plus.csv"),
+    DailyLotto(5,"https://www.africanlottery.net/download/sa_daily_lotto.csv")
     ;
      
     //Enum variables

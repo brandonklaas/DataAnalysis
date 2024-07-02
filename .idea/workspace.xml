@@ -5,28 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5f68f3-98b9-4a4e-ad62-08171a730a81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusOneGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusTwoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballPlusGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/DayOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/InternetStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/InternetConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/powerball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/NETWORK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/DailyLottoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/DrawObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoPlusOneDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoPlusTwoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/PowerballDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/PowerballPlusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusOneGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusTwoGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballPlusGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/gui/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -36,25 +57,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdvancedDailyLottoGenerator.executor": "Run",
+    "Application.AdvancedLottoGenerator.executor": "Run",
+    "Application.Lottery.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NETWORK.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Brandon/IdeaProjects/DataAnalysis",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc" />
+      <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc\gui" />
       <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc\core" />
       <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc\enums" />
       <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc\utils" />
-      <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.paybuc.pojos" />
+      <recent name="com.paybuc.core" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NETWORK">
+    <configuration name="AdvancedDailyLottoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paybuc.core.AdvancedDailyLottoGenerator" />
+      <module name="DataAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paybuc.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedLottoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paybuc.core.AdvancedLottoGenerator" />
+      <module name="DataAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paybuc.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paybuc.Lottery" />
+      <module name="DataAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paybuc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.paybuc.Main" />
       <module name="DataAnalysis" />
@@ -68,8 +141,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NETWORK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paybuc.NETWORK" />
+      <module name="DataAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paybuc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaybucApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="paybuc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paybuc.paybuc.PaybucApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NETWORK" />
+        <item itemvalue="Application.AdvancedDailyLottoGenerator" />
+        <item itemvalue="Application.AdvancedLottoGenerator" />
+        <item itemvalue="Application.Lottery" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,7 +179,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719838025219</updated>
+      <workItem from="1719843226266" duration="357000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
