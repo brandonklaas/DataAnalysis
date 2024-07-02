@@ -14,11 +14,11 @@ import java.util.Map;
 
 public class CSVDataReader {
 
-    private String line = "";
-    private String splitBy = ",";
-    SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+    private static String line = "";
+    private static String splitBy = ",";
+    private static SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
 
-    public HashMap<String,DailyLottoDto> toDailyLotto(String path) {
+    public static HashMap<String,DailyLottoDto> toDailyLotto(String path) {
         HashMap<String,DailyLottoDto> map = null;
         try {
             map = new HashMap<String, DailyLottoDto>();
@@ -42,7 +42,7 @@ public class CSVDataReader {
         return map;
     }
 
-    public HashMap<String, PowerballDto> toPowerball(String path) {
+    public static HashMap<String, PowerballDto> toPowerball(String path) {
         HashMap<String,PowerballDto> map = null;
         try {
             map = new HashMap<String, PowerballDto>();
@@ -67,7 +67,7 @@ public class CSVDataReader {
         return map;
     }
 
-    public HashMap<String, PowerballPlusDto> toPowerballPlus(String path) {
+    public static HashMap<String, PowerballPlusDto> toPowerballPlus(String path) {
         HashMap<String,PowerballPlusDto> map = null;
         try {
             map = new HashMap<String, PowerballPlusDto>();
@@ -93,7 +93,7 @@ public class CSVDataReader {
     }
 
 
-    public HashMap<String, LottoDto> toLotto(String path) {
+    public static HashMap<String, LottoDto> toLotto(String path) {
         HashMap<String,LottoDto> map = null;
         try {
             map = new HashMap<String, LottoDto>();
@@ -119,7 +119,7 @@ public class CSVDataReader {
         return map;
     }
 
-    public HashMap<String, LottoPlusOneDto> toLottoPlusOne(String path) {
+    public static HashMap<String, LottoPlusOneDto> toLottoPlusOne(String path) {
         HashMap<String,LottoPlusOneDto> map = null;
         try {
             map = new HashMap<String, LottoPlusOneDto>();
@@ -144,7 +144,7 @@ public class CSVDataReader {
         return map;
     }
 
-    public HashMap<String, LottoPlusTwoDto> toLottoPlusTwo(String path) {
+    public static HashMap<String, LottoPlusTwoDto> toLottoPlusTwo(String path) {
         HashMap<String,LottoPlusTwoDto> map = null;
         try {
             map = new HashMap<String, LottoPlusTwoDto>();

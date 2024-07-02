@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5f68f3-98b9-4a4e-ad62-08171a730a81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/NETWORK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +67,12 @@
       <recent name="C:\Users\Brandon\IdeaProjects\DataAnalysis\src\main\java\com\paybuc\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.paybuc.enums" />
       <recent name="com.paybuc.pojos" />
       <recent name="com.paybuc.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NETWORK">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AdvancedDailyLottoGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.paybuc.core.AdvancedDailyLottoGenerator" />
       <module name="DataAnalysis" />
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NETWORK" />
         <item itemvalue="Application.AdvancedDailyLottoGenerator" />
         <item itemvalue="Application.AdvancedLottoGenerator" />
         <item itemvalue="Application.Lottery" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
