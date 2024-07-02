@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5f68f3-98b9-4a4e-ad62-08171a730a81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/NETWORK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/DailyLottoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/DrawObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoPlusOneDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/LottoPlusTwoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/PowerballDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/pojos/PowerballPlusDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusOneGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedLottoPlusTwoGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/core/AdvancedPowerballPlusGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/gui/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/NETWORK.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/FileDownloader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

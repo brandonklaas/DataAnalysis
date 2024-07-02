@@ -45,7 +45,6 @@ public class FileDownloader {
         if(!binDir.exists()){
             backupDir.mkdirs();
         }
-
     }
 
     public static void getDefaultFiles(){
