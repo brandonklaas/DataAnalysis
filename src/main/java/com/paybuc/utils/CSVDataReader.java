@@ -1,5 +1,6 @@
 package com.paybuc.utils;
 
+import com.paybuc.database.DataAccessObject;
 import com.paybuc.pojos.*;
 
 import java.io.BufferedReader;
@@ -13,6 +14,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CSVDataReader {
+
+    static DataAccessObject dao = new DataAccessObject();
 
     private static String line = "";
     private static String splitBy = ",";
@@ -59,6 +62,7 @@ public class CSVDataReader {
                 powerballDto.setBonus(Integer.parseInt(numbers[7].trim()));
                 powerballDto.setDate(dateFormat.parse(numbers[1].trim()));
                 map.put(powerballDto.toString(), powerballDto);
+                dao.insertPowerball(powerballDto);
             }
 
         } catch (Exception e) {

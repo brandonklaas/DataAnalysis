@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5f68f3-98b9-4a4e-ad62-08171a730a81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/enums/FileDirectory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/lotto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/lotto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/lotto_plus_one.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/lotto_plus_one.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/lotto_plus_two.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/lotto_plus_two.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/powerball.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/powerball.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/powerball_plus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/powerball_plus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/backup/sa_daily_lotto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/backup/sa_daily_lotto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lotto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/lotto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lotto_plus_one.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/lotto_plus_one.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/lotto_plus_two.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/lotto_plus_two.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/powerball.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/powerball.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/powerball_plus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/powerball_plus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sa_daily_lotto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sa_daily_lotto.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paybuc/utils/CSVDataReader.java" afterDir="false" />
     </list>
@@ -54,7 +66,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
